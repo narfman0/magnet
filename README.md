@@ -1,0 +1,4 @@
+magnet
+======
+
+Magnet website documentation
