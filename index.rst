@@ -14,7 +14,9 @@ Contents:
    introduction
    add-machine
    working-with-documents
+   site-customization
    authorization
+   usb
 
 Indices and tables
 ==================
