@@ -23,29 +23,29 @@ Before configuration, a user must install software.
 Windows
 ~~~~~~~
 
-#. Install mysgit from http://msysgit.github.io/. Enable all command line tools.
+#. Install mysgit_ and enable all command line tools
 
 Unix-based
 ~~~~~~~~~~
 
 #. Install openssh and git from your package provider
-#. e.g. if apt/debian: `apt-get install openssh git`
-#. e.g. if yum/redhat: `yum install openssh git`
-#. e.g. if mac: install hombrew, then `brew install openssh git`
+#. e.g. if apt/debian: ``apt-get install openssh git``
+#. e.g. if yum/redhat: ``yum install openssh git``
+#. e.g. if mac: install hombrew, then ``brew install openssh git``
 
 Generate Keys
 -------------
 
-#. From windows, right click on desktop, click 'Open git bash here'. From unix
+#. From windows, right click on desktop, click `Open git bash here`. From unix
    based system, simply open terminal
-#. Type `ssh-keygen -t rsa` and press enter
+#. Type ``ssh-keygen -t rsa`` and press enter
 #. Follow on screen instructions
 
 Upload Keys
 -----------
 
 #. From your user's home directory, go in to the .ssh folder
-#. Open the file .pub that you just made (e.g. id_rsa.pub) with vim or notepad
+#. Open the file .pub that you just made (e.g. `id_rsa.pub`) with vim or notepad
 #. Copy the entire contents of the file
 
 Openshift
@@ -59,3 +59,5 @@ Roll your own server
 ~~~~~~~~~~~~~~~~~~~~
 
 #. Place your public key contents in the authorized_keys section on your server
+
+.. _mysgit: http://msysgit.github.io/

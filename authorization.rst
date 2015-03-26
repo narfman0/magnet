@@ -10,9 +10,9 @@ while a shared read only user can be shared to magnet reviewers.
 Defaults
 --------
 
-The default username is 'magnet' and the default password is 'AEwgEVfJM7spUsgt'
-The default administrator is 'administrator' and the default password is
-'vemaq9JDe2qKPQk'
+The default username is 'magnet' and the default password is
+``AEwgEVfJM7spUsgt`` The default administrator is 'administrator' and the
+default password is ``vemaq9JDe2qKPQk``
 
 Changing a Password
 -------------------

@@ -9,13 +9,13 @@ navigate to the magnet/data directory to view documents offline. Any removable
 media should be organized as such:
 
 #. Copy and paste the files in the 'usb' folder to the root of the drive
-#. Download and extract/install "portable python" to the "pp" directory in the
+#. Download and extract/install "portable python" to a ``pp`` directory in the
    root of the usb drive
 #. Place the built magnet documents in a folder named "magnet" in the root of
    the drive
-#. Copy all the files inside the "data" folder to the "static" folder in "wsgi"
+#. Copy all the files inside the "data" folder to "wsgi/static"
 
 When this is done, the removable media should now be ready. To test, insert the
-media and run the "autorun.bat" executable. A console window ending with
+media and run the ``autorun.bat`` executable. A console window ending with
 something like "waiting for requests" should remain, at which point a browser
 tab should appear bringing the user to the site.

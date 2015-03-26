@@ -25,7 +25,7 @@ Openshift
 ~~~~~~~~~
 
 #. Sign up for an account on openshift.com
-#. From the openshift.com dashboard, create a new django 1.5 or 1.6 project
+#. From the openshift.com dashboard, create a new django 1.6 project
 #. From 'settings', click 'add a new key...'
 #. Copy/paste your ssh-keygen'd public key to provided space and click save
 #. Note 'source code' URL from your application control panel
@@ -39,5 +39,6 @@ Roll your own
 Support
 -------
 
-Contact Jon Robison (narfman0@gmail.com) for questions or concerns about this
-product
+Contact `Jon Robison`_ for questions or concerns about this product
+
+.. _Jon Robison: mailto:narfman0@gmail.com

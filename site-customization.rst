@@ -7,7 +7,7 @@ Theme
 -----
 
 The magnet website is flexible in choosing any bootstrap compatible theme. Many
-free themes are housed on bootswatch.com. Navigating to bootswatch,
+free themes are housed on bootswatch_. Navigating to bootswatch_,
 the user can see many themes scrolling down. Upon finding a theme of interest,
 at the top navigation bar note the Themes pull down menu, which allows the user
 to pick a theme for a more in depth look.
@@ -28,7 +28,7 @@ one must add or edit the corresponding .html file.
 
 An example file has been place in the project named
 ``ExemplaryProfessionalPractice.html``. These files are plain html, so any
-questions can be satisfied by w3schools.com or similar queries. However, some
+questions can be satisfied by w3schools_ or similar queries. However, some
 common operations are below.
 
 If regular paragraphs should be added, or the text changed, then after pasting
@@ -52,7 +52,7 @@ to update this, simply copy your cropped image over 'bannerIndex.png' and run
 .png.
 
 .. note:: The about page also may have a banner, named "bannerAbout.png" in the
-same folder
+   same folder
 
 Glossary
 --------
@@ -61,3 +61,6 @@ The glossary is defined in the ``glossary.txt`` document in the static folder. T
 definitions should be pipe delimited '|', and any number of definitions may be
 given. To update glossary, edit ``glossary.txt`` in your favorite editor (e.g. vim,
 notepad) and append or edit definitions, one per line, as desired.
+
+.. _bootswatch: http://bootswatch.com/
+.. _w3schools: http://www.w3schools.com/
